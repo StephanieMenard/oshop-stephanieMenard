@@ -1,0 +1,10 @@
+# On ne vuet pas commit & push le dossier vendor qui contient 
+# tous les codes de nos dépendances 
+/vendor/
+
+# On ne vuet pas commit & push le fichier qui contient
+# les infos de connexion à la DB
+config.ini
+
+# On ne vuet pas commit & push le script d'import
+import-external-repo.sh
